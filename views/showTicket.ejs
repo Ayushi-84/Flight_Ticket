@@ -1,0 +1,55 @@
+<html>
+    <center>
+    <body>
+        <table width="40%" border="1" cellspacing="0" cellpadding="5">
+      <caption><h3><b>Your Booking Details</b></h3></caption>
+
+      <tr>
+     <td align="center"><img src="/images/flight.png" width="40"></td>
+     <td align="center"><b>Booking Airlines</b></td>
+
+      </tr>
+        </table>
+
+        <table width="40%" border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <th>Passenger Name</th>
+                <th>Passenger Age</th>
+                <th>Passenger Gender</th>
+                <th>Flight Number</th>
+                <th>Flight Name</th>
+                <th>Flight Source</th>
+                <th>Destination</th>
+                <th>Food</th>
+               
+            </tr>
+      
+            <tr>
+              <th><%= name %></th>
+              <th><%= age %></th>
+              <th><%= gen %></th>
+              <th><%= fn %> </th>
+              <th><%= fname %> </th>
+              <th><%= fsrc %></th>
+              <th><%= fdes %></th>
+              <th><%= food %></th>
+          </tr>
+      
+          <tr>
+              <th> &nbsp; </th>
+              <th> &nbsp; </th>
+              <th> &nbsp; </th>
+              <th> &nbsp; </th>
+              <th> &nbsp; </th>
+              <th> &nbsp; </th>
+              <th> Distance:<%= distance %>
+              </th>
+              <th>Net Amount:<%= na %></th>
+          </tr>
+
+
+        </table>
+        
+    </body>
+    </center>
+</html>

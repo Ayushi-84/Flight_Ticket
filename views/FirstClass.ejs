@@ -1,0 +1,72 @@
+<html>
+    <title>Ticket Confirmed</title>
+<center>
+<head>
+<h1><font face="arial" color="#FF0099">Congratulation! Your Seat is Confirmed</font></h1>
+</head>
+<hr width="50%">
+<body background="/images/background1.png">
+<table width="40%" border="1" bgcolor="#0000FF" cellspacing="0" cellpadding="5">
+<caption><font face="arial" color="#00008b" size="8">Booking Details </font></caption>
+
+<tr>
+    <td align="center"><img src="/images/<%= fname %>.png" width="100"></td>
+    <td align="center"><font face="arial" color="white">Boarding Pass of First Class</font></td>
+    <td align="center"><img src="/images/flight.png" width="80"></td>
+</tr>
+</table>
+
+<table width="40%" border="0" bgcolor="#fffdd0" cellspacing="0" cellpadding="5">
+
+<tr>
+    <th colspan="2">Passenger</th>
+    <th>Age</th>
+    <th>Gender</th>
+</tr>
+
+<tr>
+    <td colspan="2" align="center"><%= name %></td>
+    <td align="center"><%= age %></td>
+    <td align="center"><%= gen %></td>
+</tr>
+
+<tr>
+    <th>Flight No.</th>
+    <th>From</th>
+    <th>To</th>
+    <th>Class</th>
+</tr>
+
+<tr>
+    <td align="center"><%= fn%></td>
+    <td align="center"><%= fsrc%></td>
+    <td align="center"><%= fdes%></td>
+    <td align="center"><%= tclass%></td>
+</tr>
+
+<tr>
+    <th>Food</th>
+    <th>Distance</th>
+    <th colspan="2">Total Amount</th>
+</tr>
+
+<tr>
+    <td align="center"><%= food %></td>
+    <td align="center"><%= distance %></td>
+    <td colspan="2" align="center"><%= na %></td>
+</tr>
+
+</table>
+
+<table width="40%" border="1" bgcolor="#0000FF" cellspacing="0" cellpadding="5">
+   
+    
+    <tr>
+        <td> &nbsp; </td>
+    </tr>
+    </table>
+
+<br><br><div><font face="impact" color="Red" size="15">Happy Journey!</font></div>
+</body>
+</center>
+</html>
